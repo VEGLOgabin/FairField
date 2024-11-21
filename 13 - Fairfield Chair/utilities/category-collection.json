@@ -1,0 +1,806 @@
+[
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Sofas Loveseats",
+        "Collection_name": "Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/sofas-loveseats/sofas"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Sofas Loveseats",
+        "Collection_name": "Loveseats",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/sofas-loveseats/loveseats"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Sectionals",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/sectionals"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Sleeper Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/sleeper-sofas"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Settees Chaises",
+        "Collection_name": "Settees",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/settees-chaises/settees"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Settees Chaises",
+        "Collection_name": "Chaise Lounges",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/settees-chaises/chaise-lounges"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Lounge Wing Chairs",
+        "Collection_name": "Lounge Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/lounge-wing-chairs/lounge-chairs"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Lounge Wing Chairs",
+        "Collection_name": "Wing Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/lounge-wing-chairs/wing-chairs"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Swivel Chairs Swivel Gliders",
+        "Collection_name": "Swivel Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/swivel-chairs-swivel-gliders/swivel-chairs"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Swivel Chairs Swivel Gliders",
+        "Collection_name": "Swivel Gliders",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/swivel-chairs-swivel-gliders/swivel-gliders"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Game Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/game-chairs"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Benches",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/benches"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Tilt Back Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/tilt-back-chairs"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/motion-seating/sofas"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Recliners",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/motion-seating/recliners"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Ottomans",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/ottomans"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Table Tops Bases",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/table-tops-bases"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Cocktail Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/cocktail-tables"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "End Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/end-tables"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Pull Up Drink Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/pull-up-drink-tables"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Consoles Chests",
+        "Collection_name": "Consoles",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/consoles-chests/consoles"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Consoles Chests",
+        "Collection_name": "Chests",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/consoles-chests/chests"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Entry Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/entry-tables"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Activity Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/activity-tables"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Etageres",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/etageres"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Bar Cabinets",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/bar-cabinets"
+    },
+    {
+        "Category_name": "Living",
+        "Sub_category_name": "Living",
+        "Collection_name": "Throw Pillows",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/living/throw-pillows"
+    },
+    {
+        "Category_name": "Bedroom",
+        "Sub_category_name": "Bedroom",
+        "Collection_name": "Beds",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/bedroom/beds"
+    },
+    {
+        "Category_name": "Bedroom",
+        "Sub_category_name": "Bedroom",
+        "Collection_name": "Nightstands",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/bedroom/nightstands"
+    },
+    {
+        "Category_name": "Bedroom",
+        "Sub_category_name": "Dressers Chests",
+        "Collection_name": "Dressers",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/bedroom/dressers-chests/dressers"
+    },
+    {
+        "Category_name": "Bedroom",
+        "Sub_category_name": "Dressers Chests",
+        "Collection_name": "Chests",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/bedroom/dressers-chests/chests"
+    },
+    {
+        "Category_name": "Bedroom",
+        "Sub_category_name": "Bedroom",
+        "Collection_name": "Benches",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/bedroom/benches"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining",
+        "Collection_name": "Dining Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/dining-tables"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Arm Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/dining-chairs/arm-chairs"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Side Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/dining-chairs/side-chairs"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining",
+        "Collection_name": "Banquettes",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/banquettes"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining",
+        "Collection_name": "Benches",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/benches"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Credenzas Consoles",
+        "Collection_name": "Credenzas",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/credenzas-consoles/credenzas"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Credenzas Consoles",
+        "Collection_name": "Consoles",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/credenzas-consoles/consoles"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Bar Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/bar-counter-stools/bar-stools"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Counter Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/bar-counter-stools/counter-stools"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Bar Counter Tables",
+        "Collection_name": "Bar Height Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/bar-counter-tables/bar-height-tables"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Bar Counter Tables",
+        "Collection_name": "Counter Height Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/bar-counter-tables/counter-height-tables"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining",
+        "Collection_name": "Bar Cabinets",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/bar-cabinets"
+    },
+    {
+        "Category_name": "Dining",
+        "Sub_category_name": "Dining",
+        "Collection_name": "Table Tops Bases",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/dining/table-tops-bases"
+    },
+    {
+        "Category_name": "Office",
+        "Sub_category_name": "Office",
+        "Collection_name": "Desks",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/office/desks"
+    },
+    {
+        "Category_name": "Office",
+        "Sub_category_name": "Office",
+        "Collection_name": "Desk Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/office/desk-chairs"
+    },
+    {
+        "Category_name": "Office",
+        "Sub_category_name": "Office",
+        "Collection_name": "File Storage",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/office/file-storage"
+    },
+    {
+        "Category_name": "Office",
+        "Sub_category_name": "Office",
+        "Collection_name": "Table Tops Bases",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-room/office/table-tops-bases"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Bar Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/bar-counter-stools/bar-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Counter Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/bar-counter-stools/counter-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Return Swivel Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/bar-counter-stools/return-swivel-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Adjustable Height Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/bar-counter-stools/adjustable-height-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Banquettes",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/banquettes"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Benches",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/benches"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Lounge Occasional Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/chairs/lounge-occasional-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Swivel Chairs Swivel Gliders",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/chairs/swivel-chairs-swivel-gliders"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Tilt Back Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/chairs/tilt-back-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Wing Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/chairs/wing-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Game Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/chairs/game-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Arm Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/dining-chairs/arm-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Side Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/dining-chairs/side-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Stackable Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/dining-chairs/stackable-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Motion Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/motion-seating/motion-sofas"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Recliners",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/motion-seating/recliners"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Ottomans",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/ottomans"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Desk Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/desk-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Sectionals",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/sectionals"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Settees Chaises",
+        "Collection_name": "Settees",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/settees-chaises/settees"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Settees Chaises",
+        "Collection_name": "Chaise Lounges",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/settees-chaises/chaise-lounges"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Sofas Loveseats",
+        "Collection_name": "Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/sofas-loveseats/sofas"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Sofas Loveseats",
+        "Collection_name": "Loveseats",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/sofas-loveseats/loveseats"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Throw Pillows",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/seating/throw-pillows"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Activity Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/activity-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Bar Cabinets",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/bar-cabinets"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Bar Counter Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/bar-counter-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Beds",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/beds"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Cocktail Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/cocktail-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Credenzas Consoles",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/credenzas-consoles"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Consoles Chests",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/consoles-chests"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Curios",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/curios"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Dining Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/dining-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Dressers Chests",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/dressers-chests"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "End Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/end-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Entry Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/entry-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Etageres",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/etageres"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "File Storage",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/file-storage"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Nightstands",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/nightstands"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Pull Up Drink Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/pull-up-drink-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Table Tops Bases",
+        "Collection_link": "https://www.fairfieldchair.com/products/residential/shop-by-product/casegoods/table-tops-bases"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Bar Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/bar-counter-stools/bar-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Counter Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/bar-counter-stools/counter-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Return Swivel Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/bar-counter-stools/return-swivel-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Bar Counter Stools",
+        "Collection_name": "Adjustable Height Stools",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/bar-counter-stools/adjustable-height-stools"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Banquettes",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/banquettes"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Benches",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/benches"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Lounge Occasional Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/lounge-occasional-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Swivel Chairs Swivel Gliders",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/swivel-chairs-swivel-gliders"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Tilt Back Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/tilt-back-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Wing Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/wing-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Game Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/game-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Tablet Arm Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/tablet-arm-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Chairs",
+        "Collection_name": "Bariatric Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/chairs/bariatric-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Arm Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/dining-chairs/arm-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Side Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/dining-chairs/side-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Stackable Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/dining-chairs/stackable-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Dining Chairs",
+        "Collection_name": "Bariatric Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/dining-chairs/bariatric-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Easy Clean",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/easy-clean"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Locking Gliders",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/motion-seating/locking-gliders"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Motion Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/motion-seating/motion-sofas"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Motion Seating",
+        "Collection_name": "Rockers",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/motion-seating/rockers"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Desk Chairs",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/desk-chairs"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Sectionals",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/sectionals"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Settees Chaises",
+        "Collection_name": "Settees",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/settees-chaises/settees"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Settees Chaises",
+        "Collection_name": "Chaise Lounges",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/settees-chaises/chaise-lounges"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Sofas Loveseats",
+        "Collection_name": "Sofas",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/sofas-loveseats/sofas"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Sofas Loveseats",
+        "Collection_name": "Loveseats",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/sofas-loveseats/loveseats"
+    },
+    {
+        "Category_name": "Seating",
+        "Sub_category_name": "Seating",
+        "Collection_name": "Throw Pillows",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/seating/throw-pillows"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Activity Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/activity-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Bar Cabinets",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/bar-cabinets"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Bar Counter Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/bar-counter-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Cocktail Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/cocktail-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Credenzas Consoles",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/credenzas-consoles"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Consoles Chests",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/consoles-chests"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Curios",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/curios"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Dining Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/dining-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Dressers Chests",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/dressers-chests"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "End Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/end-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Entry Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/entry-tables"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Table Tops Bases",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/table-tops-bases"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Etageres",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/etageres"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "File Storage",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/file-storage"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Nightstands",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/nightstands"
+    },
+    {
+        "Category_name": "Casegoods",
+        "Sub_category_name": "Casegoods",
+        "Collection_name": "Pull Up Drink Tables",
+        "Collection_link": "https://www.fairfieldchair.com/products/commercial/casegoods/pull-up-drink-tables"
+    }
+]
