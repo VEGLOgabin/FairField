@@ -1,8 +1,3 @@
-
-
-
-
-
 from playwright.sync_api import sync_playwright, TimeoutError
 import time
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
@@ -20,9 +15,6 @@ import os
 def extract_collections(soup):
     """Extract collections from the parsed HTML soup."""
     category_data = soup.find("div", class_="dropdown menu-top-item cursor-pointer h-100 d-flex align-items-center py-0")
-
-
-
     if category_data:
         collections_list = category_data.find_all("a", class_ = "menu-item")
         if collections_list:
@@ -356,7 +348,7 @@ class ProductScraper:
         """Scrape product details."""
         try:
             print(f"Scraping product: {product['product_link']}")
-            page.goto(product['product_link'])
+            page.goto(product['product_link'], timeout = 0)
             time.sleep(7)
 
             page = self.click_show_more_if_present(page)

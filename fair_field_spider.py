@@ -417,7 +417,11 @@ class ProductScraper:
 
             product_images = []
             imgs = soup.find_all("img", class_="pdp-slider-img")
-
+            imgs_container_div = soup.find("div", class_ = "product-media-slider")
+            if imgs_container_div:
+                img_div_list = imgs_container_div.find_all("div", class_ = "slick-slide")
+                if img_div_list:
+                    
             if imgs:
                 for img in imgs:
                         src = img.get("src")
