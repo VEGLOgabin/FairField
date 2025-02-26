@@ -29,7 +29,7 @@ This will generate a JSON file: `utilities/category-collection.json` containing 
 After running the first step, execute the command below to extract product links:
 
 ```sh
-python script.py
+python fair_field_spider.py
 ```
 This will generate a JSON file: `utilities/products-links.json` containing extracted product links.
 
