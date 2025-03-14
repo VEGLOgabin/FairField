@@ -6,9 +6,7 @@
 from playwright.sync_api import sync_playwright, TimeoutError
 import time
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
-
 import json
-import time
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import os
@@ -416,18 +414,19 @@ class ProductScraper:
             sku = soup.find('h2', class_="product-sku")
 
             product_images = []
-            imgs = soup.find_all("img", class_="pdp-slider-img")
+            
             imgs_container_div = soup.find("div", class_ = "product-media-slider")
             if imgs_container_div:
                 img_div_list = imgs_container_div.find_all("div", class_ = "slick-slide")
                 if img_div_list:
-                    
-            if imgs:
-                for img in imgs:
+                    for item in img_div_list:
+                        data_index = item.get("data-index")
+                        img = item.find("img", class_="pdp-slider-img")
                         src = img.get("src")
-                        if src:
-                            product_images.append(src)
-
+                        product_images.append({
+                            "data-index": data_index,
+                            "src" : src
+                        })
 
             product_images = list(set(product_images))
             if sku:
@@ -487,7 +486,7 @@ def run_spiders():
 
 if __name__ == "__main__":
     try:
-        run_spiders()
+        # run_spiders()
         with open('utilities/products-links.json', 'r', encoding='utf-8') as f:
             products = json.load(f)
         scraper = ProductScraper()
