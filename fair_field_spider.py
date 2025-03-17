@@ -1,8 +1,3 @@
-
-
-
-
-
 from playwright.sync_api import sync_playwright, TimeoutError
 import time
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
@@ -353,17 +348,29 @@ class ProductScraper:
     def scrape_product(self, page, product):
         """Scrape product details."""
         try:
-            print(f"Scraping product: {product['product_link']}")
-            page.goto(product['product_link'])
-            time.sleep(7)
+            # print(f"Scraping product: {product['product_link']}")
+            page.goto(product['product_link'], timeout = 0)
+            time.sleep(9)
+
+
+            # import random
+            # random_number = random.randint(0, 9999)
+            # html_content = page.content()
+            # print(random_number)
+            # with open(f"product-{random_number}.html", 'w', encoding='utf-8') as f:
+            #     f.write(html_content)
+
 
             page = self.click_show_more_if_present(page)
-            
 
             specs_dict_details = {}
             specs_dict_dimensions = {}
             description = ""
 
+
+            content = page.content()
+            soup = BeautifulSoup(content, 'html.parser')
+            product_name = soup.find("h1", class_="product-name")
             specs_container_dimentions = page.locator("div.specs-options-container")
             div_count = specs_container_dimentions.locator("div").count()
             for i in range(div_count):
@@ -377,44 +384,82 @@ class ProductScraper:
                     specs_dict_dimensions[key.strip()] = value.strip()
 
 
-            description_elements = page.locator("p", has_text="Description")
-            found = False
-            for i in range(description_elements.count()):
-                if description_elements.nth(i).text_content() == "Description":
-                    description_elements.nth(i).click()
-                    page = self.click_show_more_if_present(page)
-                    description = page.locator("div.description").text_content()
-                    found = True
-                    break
-
-
-            details_elements = page.locator("p", has_text="Details")
-            for i in range(details_elements.count()):
-                if details_elements.nth(i).text_content() == "Details":
-                    details_elements.nth(i).click()
-                    page = self.click_show_more_if_present(page)
-                    specs_container_details = page.locator("div.specs-options-container")
-                    div_count = specs_container_details.locator("div").count()
-                    for i in range(div_count):
-                        div = specs_container_details.locator("div").nth(i)
-                        name_span = div.locator("span.specs-options-name")
-                        value_span = div.locator("span.specs-options-value")
-                        
-                        if name_span.count() > 0 and value_span.count() > 0:
-                            key = name_span.text_content()
-                            value = value_span.text_content()
-                            specs_dict_details[key.strip()] = value.strip()
-                    found = True
-                    break
-
-
-            content = page.content()
-            soup = BeautifulSoup(content, 'html.parser')
-            product_name = soup.find("h1", class_="product-name")
-            sku = soup.find('h2', class_="product-sku")
-
-            product_images = []
+            # description_elements = page.locator("p", has_text="Description")
             
+            # found = False
+            # for i in range(description_elements.count()):
+            #     if description_elements.nth(i).text_content() == "Description":
+            #         description_elements.nth(i).click()
+            #         page = self.click_show_more_if_present(page)
+            #         description = page.locator("div.description").text_content()
+            #         found = True
+            #         break
+
+
+            # details_elements = page.locator("p", has_text="Details")
+            # for i in range(details_elements.count()):
+            #     if details_elements.nth(i).text_content() == "Details":
+            #         details_elements.nth(i).click()
+            #         page = self.click_show_more_if_present(page)
+            #         specs_container_details = page.locator("div.specs-options-container")
+            #         div_count = specs_container_details.locator("div").count()
+            #         for i in range(div_count):
+            #             div = specs_container_details.locator("div").nth(i)
+            #             name_span = div.locator("span.specs-options-name")
+            #             value_span = div.locator("span.specs-options-value")
+                        
+            #             if name_span.count() > 0 and value_span.count() > 0:
+            #                 key = name_span.text_content()
+            #                 value = value_span.text_content()
+            #                 specs_dict_details[key.strip()] = value.strip()
+            #         found = True
+            #         break
+
+                
+            details_section = page.locator('div[data-test="row"]', has_text="Details").first
+
+            if details_section.count() > 0:
+                details_section.first.click()  # Click to expand details if needed
+
+                # Locate specifications container
+                specs_container = page.locator("div.detail-items")
+
+                if specs_container.count() > 0:
+                    detail_rows = specs_container.locator("p.mb-2")
+
+                    for i in range(detail_rows.count()):
+                        row = detail_rows.nth(i)
+                        name_span = row.locator("span.generic-description").first
+                        value_span = row.locator("span.generic-description-value")
+
+                        if name_span.count() > 0 and value_span.count() > 0:
+                            key = name_span.text_content().strip()
+                            value = value_span.text_content().strip()
+                            specs_dict_details[key] = value
+
+            dimensions = {}
+            for key in list(specs_dict_details.keys()):  
+                if "”" in specs_dict_details[key]: 
+                    dimensions[key] = specs_dict_details.pop(key)
+            sku_element = page.locator('h4', has_text="Style:").first  
+
+            if sku_element.count() > 0: 
+                sku = sku_element.text_content().strip()
+            else:
+                sku = ""  
+           
+            description_p = soup.find_all("p", class_ = "generic-description")
+            if description_p:
+                print(len(description_p))
+                description = description_p[-1].text
+                for item  in description_p:
+                    
+                    print(item.text)
+                    print("-------------------------")
+                print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+                # print(description)
+            product_images = []
+            checker_list = []
             imgs_container_div = soup.find("div", class_ = "product-media-slider")
             if imgs_container_div:
                 img_div_list = imgs_container_div.find_all("div", class_ = "slick-slide")
@@ -422,13 +467,22 @@ class ProductScraper:
                     for item in img_div_list:
                         data_index = item.get("data-index")
                         img = item.find("img", class_="pdp-slider-img")
-                        src = img.get("src")
-                        product_images.append({
-                            "data-index": data_index,
-                            "src" : src
-                        })
+                        if img:
+                            src = img.get("src")
+                            if src not in checker_list:
+                                checker_list.append(src)
+                                product_images.append({
+                                    "data-index": data_index,
+                                    "src" : src
+                                })
 
-            product_images = list(set(product_images))
+            # product_images = list(set(product_images))
+            # print(product_images)
+            if len(product_images)==0:
+                img = soup.find("img", class_="pdp-slider-img")
+                if img:
+                    product_images = [img.get("src")]
+            # print(sku)
             if sku:
                 new_product_data = {
                     'Category': product['category_name'],
@@ -436,16 +490,17 @@ class ProductScraper:
                     'Collection': product['collection_name'],
                     'Product Link': product['product_link'],
                     'Product Title': product_name.text.strip() if product_name else '',
-                    'SKU': sku.text.strip().replace("SKU", "").replace(' ', "") if sku else '',
+                    'SKU': sku.replace("Style:", "").replace(' ', "") if sku else '',
                     "Description": description,
                     'Product Details': specs_dict_details,
-                    "Dimensions": specs_dict_dimensions,
+                    "Dimensions": dimensions,
                     "Product Images": product_images
                 }
-                
+                # print(new_product_data)
                 self.scraped_data.append(new_product_data)
                 with open('output/products-data.json', 'w', encoding='utf-8') as f:
                     json.dump(self.scraped_data, f, ensure_ascii=False, indent=4)
+
                 print(f"Successfully scraped product: {product['product_link']}")
 
         except Exception as e:
@@ -460,7 +515,7 @@ class ProductScraper:
     def scrape_products(self, products):
         """Main function to scrape all products."""
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             for product in products:
                 product_key = (product['product_link'], product['collection_name'], product["sub_ccategory_name"], product['category_name'])
@@ -493,3 +548,7 @@ if __name__ == "__main__":
         scraper.scrape_products(products)
     except Exception as e:
         print(f"Failed to load products: {e}")
+
+
+
+

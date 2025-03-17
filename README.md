@@ -60,3 +60,6 @@ This project is licensed under the MIT License.
 ## Author
 Developed by **[VEGLO H. Gabin](https://github.com/VEGLOgabin)**
 
+
+
+<p class="generic-description">Punctuated by trim sloping track arms, Beckett?s shapely silhouette balances clean lines with ample comfort. Deep inprofile and streamlined for sophistication, Beckett rests on simple block feet and features loose seat and back cushions. Beckett isoffered in 80", 90" and 100" sofas with matching lounge and swivel chair. Made in America.</p>
