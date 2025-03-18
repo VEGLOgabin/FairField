@@ -1,0 +1,1 @@
+What changes are made in this version: We updated product images by adding a data-index to each image. The structure of the website has changed, so we updated the selectors for the description, product details, and product dimensions accordingly.
